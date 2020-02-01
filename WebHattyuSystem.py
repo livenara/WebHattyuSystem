@@ -240,4 +240,4 @@ if __name__ == "__main__":
     FileMake(ExcelFile, CsvFileName)          # "tmp_SmileBS_修正登録ファイル.xls"から"tmp_Web_登録用データ.csv"作成
     HattyuList = HattyuDataCsv(CsvFileName)   # 発注用に作成したデータをリスト化
     Login(login_page_url,login_id,login_pass) # ログイン
-    SyoHinPageData(HattyuList)      # 注文個数入力から発注確定画面まで
+    SyoHinPageData(HattyuList)                # 注文個数入力から発注確定画面まで
